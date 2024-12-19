@@ -10,7 +10,7 @@ from pymilvus import Collection
 
 llm = ChatGoogleGenerativeAI(
     model='gemini-1.5-flash',
-    api_key="AIzaSyBF3755EbGuaFzXRwNNaICVhaDfr2-raRg",
+    api_key="your_api_key",
     convert_system_message_to_human=True
 )
 # Connect to Milvus database
